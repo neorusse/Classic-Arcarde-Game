@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+  background-color: blanchedalmond;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+.score {
+  margin: 8px;
+  font-weight: bold;
+  color: darkred;
+  font-size: 20px;
+}
+
+button {
+  border: solid 3px rgb(0, 0, 0);
+  border-radius: 4px;
+}
+
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+  canvas {
+    max-width: 290px;
+    min-height: 450px;
+  }
+
+  h1 {
+    font-size: 27px;
+  }
+}
